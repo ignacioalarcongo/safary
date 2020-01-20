@@ -1,0 +1,18 @@
+
+.contenido_principal{
+border: 3px solid violet;
+height: 298px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+  
+}
+
+img{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}

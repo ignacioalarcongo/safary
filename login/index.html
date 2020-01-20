@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Etiquetas de JS</title>
+
+  <style>
+  .mensaje-visible {
+    color: red;
+    display: block;
+  }
+  .mensaje-invisible {   
+    display: none;
+  }
+  </style>
+  
+</head>
+<body>
+
+  <main class="contenedor">
+    <div class="formulario">
+    <h2>Iniciar Sesión</h2>
+    <form action="#">
+    <input type="text" id="email" placeholder="Usuario">
+    <input type="password" id="password" placeholder="Password">
+    <button id="boton">Ingresar</button>
+    </div>
+    <small class="mensaje-invisible" id="mensaje">Te has equivocado de usuario</small>
+  
+    <script src="./index.js"></script>
+  </main>
+</body>
+</html>
